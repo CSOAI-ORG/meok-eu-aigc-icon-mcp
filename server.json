@@ -1,0 +1,9 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.CSOAI-ORG/meok-eu-aigc-icon-mcp",
+  "version": "1.0.0",
+  "description": "MEOK EU AIGC Icon MCP — EU AI Act Article 50 + Code of Practice 2nd draft AI-generated-content icon + labelling. 8 emitters for C2PA, HTML, image ICC, audio ID3, video keyframe. 2 Nov 2026 cliff. By MEOK AI Labs.",
+  "repository": { "url": "https://github.com/CSOAI-ORG/meok-eu-aigc-icon-mcp", "source": "github" },
+  "packages": [{ "registryType": "pypi", "identifier": "meok-eu-aigc-icon-mcp", "version": "1.0.0", "runtimeHint": "python", "transport": { "type": "stdio" } }],
+  "remotes": [{ "type": "streamable-http", "url": "https://api.meok.ai/v1/governance/eu-aigc-icon" }]
+}
