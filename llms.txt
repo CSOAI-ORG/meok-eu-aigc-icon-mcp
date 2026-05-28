@@ -1,0 +1,24 @@
+# meok-eu-aigc-icon-mcp
+
+> MEOK EU AIGC Icon MCP — EU AI Act Article 50 + Code of Practice 2nd draft AI-generated-content icon + labelling. 8 emitters for C2PA, HTML, image ICC, audio ID3, video keyframe. 2 Nov 2026 cliff. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- emit_icon_manifest_entry
+- emit_html_meta_tags
+- emit_image_icc_signal
+- emit_audio_id3_signal
+- emit_video_keyframe_signal
+- get_icon_asset_uri
+- code_of_practice_status
+- sign_compliance_attestation
+
+## Install
+```
+pip install meok-eu-aigc-icon-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-eu-aigc-icon-mcp/
+- Docs: https://meok.ai

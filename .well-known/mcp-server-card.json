@@ -1,0 +1,37 @@
+{
+  "name": "meok-eu-aigc-icon-mcp",
+  "title": "Meok Eu Aigc Icon Mcp",
+  "description": "MEOK EU AIGC Icon MCP \u2014 EU AI Act Article 50 + Code of Practice 2nd draft AI-generated-content icon + labelling. 8 emitters for C2PA, HTML, image ICC, audio ID3, video keyframe. 2 Nov 2026 cliff. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "emit_icon_manifest_entry"
+    },
+    {
+      "name": "emit_html_meta_tags"
+    },
+    {
+      "name": "emit_image_icc_signal"
+    },
+    {
+      "name": "emit_audio_id3_signal"
+    },
+    {
+      "name": "emit_video_keyframe_signal"
+    },
+    {
+      "name": "get_icon_asset_uri"
+    },
+    {
+      "name": "code_of_practice_status"
+    },
+    {
+      "name": "sign_compliance_attestation"
+    }
+  ]
+}
