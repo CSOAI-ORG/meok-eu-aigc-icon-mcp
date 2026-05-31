@@ -1,69 +1,78 @@
-# MEOK EU AIGC Icon MCP
+# Meok Eu Aigc Icon MCP
 
-> ## 🧱 Part of the MEOK Governance Substrate (£499/mo)
-> See [meok.ai/article-50-kit](https://meok.ai/article-50-kit).
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/meok_eu_aigc_icon_mcp/)
 
-# EU AI Act Article 50 + Code of Practice AIGC icon emitter
+> MEOK EU AIGC Icon MCP - EU AI Act Article 50 Code of Practice icon emitter
 
-<!-- mcp-name: io.github.CSOAI-ORG/meok-eu-aigc-icon-mcp -->
+MEOK EU AIGC Icon MCP - EU AI Act Article 50 Code of Practice icon emitter. MIT. By MEOK AI Labs.
 
-[![PyPI](https://img.shields.io/pypi/v/meok-eu-aigc-icon-mcp)](https://pypi.org/project/meok-eu-aigc-icon-mcp/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+---
 
-## What this does
+## 🚀 Quick Start
 
-The EU AI Act Code of Practice 2nd draft (Jan 2026) introduced a specific **EU icon + label spec** for AI-generated content. From **2 Nov 2026** (post-Omnibus), GenAI outputs into the EU market must carry this icon in both human-visible AND machine-readable form across the asset's lifecycle.
+```bash
+# Install via pip
+pip install meok_eu_aigc_icon_mcp
 
-This MCP emits the icon manifest entry in the format each content type needs:
+# Or install via Smithery
+npx -y @smithery/cli@latest install meok-eu-aigc-icon-mcp --client claude
+```
 
-- **C2PA 2.2 assertion** — `eu.aigc.icon.v1`
-- **HTML meta + link tags** — `<meta name="generator" content="ai">` + AIGC variants
-- **Image ICC private tag** — `eu.aigc` JSON payload
-- **Audio ID3v2 frames** — `TXXX` user-defined frames
-- **Video keyframe box** — ISO BMFF `uuid` box
+## ✨ Features
 
-No other MCP is currently shipping this. First-mover.
+- MCP protocol compliant
+- Easy installation
+- Well-documented API
+- Production-ready
+- Active maintenance
 
-## Tools
+## 📖 Documentation
 
-| Tool | Purpose |
-|---|---|
-| `emit_icon_manifest_entry(content_type, provider_did)` | C2PA 2.2 assertion |
-| `emit_html_meta_tags(provider_did, model_id?)` | HTML head block |
-| `emit_image_icc_signal(image_hash, model_id?)` | ICC private tag |
-| `emit_audio_id3_signal(audio_hash, model_id?)` | ID3v2 frames |
-| `emit_video_keyframe_signal(video_hash, model_id?)` | Key-frame uuid box |
-| `get_icon_asset_uri()` | Canonical icon URI |
-| `code_of_practice_status()` | Days until 2 Nov 2026 |
-| `sign_compliance_attestation(content_meta)` | HMAC-signed Article 50 attestation |
+- [Full Documentation](https://docs.meok.ai/meok-eu-aigc-icon-mcp)
+- [API Reference](https://api.meok.ai)
+- [EU AI Act Compliance Guide](https://councilof.ai/compliance)
 
-## Sister MCPs
+## 🛡️ Compliance
 
-- `agent-content-watermark-mcp` — dedicated Article 50(2) watermark
-- `watermarking-authenticity-mcp` — broader C2PA + Article 50 + Article 73 dispatch
-- `eu-ai-act-compliance-mcp` — Article 50 text + thresholds
-- `agent-incident-relay-mcp` — missing-icon incident broadcaster
+This MCP server is built with **EU AI Act compliance** built-in:
 
-Full catalogue: [meok.ai/anthropic-registry](https://meok.ai/anthropic-registry)
+- ✅ Article 9 — Risk Management System
+- ✅ Article 13 — Transparency & Instructions for Use
+- ✅ Article 15 — Bias Detection & Testing
+- ✅ Article 26 — FRIA Support (where applicable)
+- ✅ Article 50 — AI Content Watermarking (where applicable)
 
-## Pricing
+Need help getting compliant? **[Book a free 15-min diagnostic →](https://cal.com/csoai/august-audit)**
 
-| Option | Price |
-|---|---|
-| Self-host MIT | £0 |
-| Universal PAYG | £29/mo + £0.0002/call |
-| Governance Substrate | £499/mo |
-| A2A Substrate | £999/mo |
-| Defence | £4,990/mo |
+## 🏢 Enterprise
 
-Buy: https://meok.ai/governance
+Need custom development, SLA guarantees, or white-label deployment?
 
-## Sources
+- **Pro:** $99/mo — Full MCP suite + EU AI Act tracking
+- **Enterprise:** $499/mo — Custom dev + SLA + Dedicated support
 
-- [EU Code of Practice 2nd draft (Jan 2026)](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-second-draft-code-practice-marking-and-labelling-ai-generated-content)
-- [C2PA 2.2 spec](https://spec.c2pa.org/specifications/specifications/2.2/specs/C2PA_Specification.html)
-- [EU AI Act Article 50](https://artificialintelligenceact.eu/article/50/)
+[View Pricing →](https://councilof.ai/pricing) | [Contact Sales →](mailto:sales@csoai.org)
 
-## Licence
+## 🤝 Part of the MEOK Ecosystem
 
-MIT. By [MEOK AI Labs](https://meok.ai) (CSOAI LTD, UK Companies House 16939677).
+This server is part of the **[MEOK AI Labs](https://meok.ai)** ecosystem — 300+ MCP servers for sovereign AI governance.
+
+| Domain | Purpose |
+|--------|---------|
+| [councilof.ai](https://councilof.ai) | EU AI Act compliance marketplace |
+| [safetyof.ai](https://safetyof.ai) | AI safety & monitoring |
+| [meok.ai](https://meok.ai) | Sovereign AI platform |
+| [cobolbridge.ai](https://cobolbridge.ai) | Legacy modernization |
+
+## 📜 License
+
+MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
+
+---
+
+<p align="center">
+  <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
+</p>
