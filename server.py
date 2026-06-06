@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+Buy Pro: https://www.csoai.org/checkout
+
 MEOK EU AIGC Icon MCP — EU AI-Generated-Content labelling icon
 ================================================================
 
@@ -10,7 +12,7 @@ WHAT THIS DOES
 --------------
 The EU AI Act Code of Practice 2nd draft (Jan 2026) introduced a specific EU
 icon + label spec for marking AI-generated content. From Aug 2026 (post-Omnibus:
-2 Nov 2026), GenAI outputs into the EU market must carry this icon in a
+2 Aug 2026), GenAI outputs into the EU market must carry this icon in a
 machine-readable AND human-visible form.
 
 Spec layers:
@@ -30,7 +32,7 @@ TOOLS
 - emit_audio_id3_signal(): ID3 ChapterFrame + UserDefined frame
 - emit_video_keyframe_signal(): video key-frame data segment
 - get_icon_asset_uri(): canonical URI for the visible EU icon
-- code_of_practice_status(): days until 2 Nov 2026 cliff
+- code_of_practice_status(): days until 2 Aug 2026 cliff
 - sign_compliance_attestation(content_meta): HMAC seal
 
 PRICING
@@ -55,7 +57,7 @@ _HMAC_SECRET = os.environ.get("MEOK_HMAC_SECRET", "")
 
 CODE_OF_PRACTICE = {
     "version": "EU_GPAI_COP_v1_LABELLING_AND_MARKING_2026_01",
-    "effective_date": "2026-11-02",
+    "effective_date": "2026-08-02",
     "issuing_body": "European AI Office",
     "spec_url": "https://digital-strategy.ec.europa.eu/en/library/commission-publishes-second-draft-code-practice-marking-and-labelling-ai-generated-content",
     "icon_asset_canonical": "https://digital-strategy.ec.europa.eu/assets/icons/aigc-blue-star.svg",
@@ -237,7 +239,7 @@ def get_icon_asset_uri() -> dict:
 
 @mcp.tool()
 def code_of_practice_status() -> dict:
-    """How many days until the 2 Nov 2026 Article 50 effective date?"""
+    """How many days until the 2 Aug 2026 Article 50 effective date?"""
     today = datetime.now(timezone.utc).date()
     eff = datetime.fromisoformat(CODE_OF_PRACTICE["effective_date"]).date()
     return {

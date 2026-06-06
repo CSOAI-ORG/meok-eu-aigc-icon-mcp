@@ -1,4 +1,7 @@
 # Meok Eu Aigc Icon MCP
+mcp-name: io.github.CSOAI-ORG/meok-eu-aigc-icon-mcp
+
+# MEOK EU AIGC Icon MCP
 
 [![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
 [![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
@@ -118,3 +121,4 @@ Once configured, ask your assistant, for example:
 - "Use `emit_icon_manifest_entry` to …"
 - "Use `emit_html_meta_tags` to …"
 - "Use `emit_image_icc_signal` to …"
+<!-- BUY-LADDER:END -->

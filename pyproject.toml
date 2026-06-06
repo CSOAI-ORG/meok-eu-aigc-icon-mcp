@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meok-eu-aigc-icon-mcp"
-version = "1.0.0"
+version = "1.0.1"
 description = "MEOK EU AIGC Icon MCP — EU AI Act Article 50 + Code of Practice 2nd draft AI-generated-content icon + labelling. 8 emitters for C2PA, HTML, image ICC, audio ID3, video keyframe. 2 Nov 2026 cliff. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }
