@@ -1,4 +1,21 @@
-[![MCP Scorecard: 90/100](https://img.shields.io/badge/proofof.ai-90%2F100-5b21b6)](https://proofof.ai/scorecard/meok-eu-aigc-icon-mcp.html)
+Metadata-Version: 2.4
+Name: meok-eu-aigc-icon-mcp
+Version: 1.0.1
+Summary: MEOK EU AIGC Icon MCP — EU AI Act Article 50 + Code of Practice 2nd draft AI-generated-content icon + labelling. 8 emitters for C2PA, HTML, image ICC, audio ID3, video keyframe. 2 Nov 2026 cliff. By MEOK AI Labs.
+Author-email: Nicholas Templeman <nicholas@meok.ai>
+License: MIT
+Project-URL: Homepage, https://meok.ai/article-50-kit
+Project-URL: Repository, https://github.com/CSOAI-ORG/meok-eu-aigc-icon-mcp
+Keywords: mcp,eu-ai-act,article-50,watermark,c2pa,aigc-icon,code-of-practice,meok
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Security :: Cryptography
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mcp[cli]>=1.3.0
+Dynamic: license-file
 
 # Meok Eu Aigc Icon MCP
 mcp-name: io.github.CSOAI-ORG/meok-eu-aigc-icon-mcp
