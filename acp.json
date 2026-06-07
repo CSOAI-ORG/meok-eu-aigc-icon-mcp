@@ -1,0 +1,26 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-eu-aigc-icon-mcp",
+    "description": "MEOK EU AIGC Icon MCP \u2014 EU AI Act Article 50 + Code of Practice 2nd draft AI-generated-content icon",
+    "version": "1.0.1",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-eu-aigc-icon-mcp"
+      }
+    ],
+    "capabilities": [
+      "emit_icon_manifest_entry",
+      "emit_html_meta_tags",
+      "emit_image_icc_signal",
+      "emit_audio_id3_signal",
+      "emit_video_keyframe_signal",
+      "get_icon_asset_uri",
+      "code_of_practice_status",
+      "sign_compliance_attestation"
+    ]
+  }
+}
