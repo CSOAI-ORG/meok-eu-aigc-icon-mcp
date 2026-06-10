@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-eu-aigc-icon-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-eu-aigc-icon-mcp"
+      ]
+    }
+  }
+}
