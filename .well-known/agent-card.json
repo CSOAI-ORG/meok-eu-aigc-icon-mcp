@@ -1,0 +1,168 @@
+{
+  "name": "Meok Eu Aigc Icon Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-eu-aigc-icon-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "MEOK EU AIGC Icon MCP — EU AI Act Article 50 + Code of Practice 2nd draft AI-generated-content icon + labelling. 8 emitters for C2PA, HTML, image ICC, audio ID3, video keyframe. 2 Nov 2026 cliff. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "emit_icon_manifest_entry",
+      "name": "Emit Icon Manifest Entry",
+      "description": "Emit Icon Manifest Entry — a tool of the meok-eu-aigc-icon-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "emit_html_meta_tags",
+      "name": "Emit Html Meta Tags",
+      "description": "Emit Html Meta Tags — a tool of the meok-eu-aigc-icon-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "emit_image_icc_signal",
+      "name": "Emit Image Icc Signal",
+      "description": "Emit Image Icc Signal — a tool of the meok-eu-aigc-icon-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "emit_audio_id3_signal",
+      "name": "Emit Audio Id3 Signal",
+      "description": "Emit Audio Id3 Signal — a tool of the meok-eu-aigc-icon-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "emit_video_keyframe_signal",
+      "name": "Emit Video Keyframe Signal",
+      "description": "Emit Video Keyframe Signal — a tool of the meok-eu-aigc-icon-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "get_icon_asset_uri",
+      "name": "Get Icon Asset Uri",
+      "description": "Get Icon Asset Uri — a tool of the meok-eu-aigc-icon-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "code_of_practice_status",
+      "name": "Code Of Practice Status",
+      "description": "Code Of Practice Status — a tool of the meok-eu-aigc-icon-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "sign_compliance_attestation",
+      "name": "Sign Compliance Attestation",
+      "description": "Sign Compliance Attestation — a tool of the meok-eu-aigc-icon-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-eu-aigc-icon-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
