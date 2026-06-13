@@ -4,3 +4,6 @@ dist/meok_eu_aigc_icon_mcp-1.0.1-py3-none-any.whl
 dist/meok_eu_aigc_icon_mcp-1.0.1.tar.gz
 __pycache__/.!11729!server.cpython-311.pyc
 pypi-publish-20260609-060323.log
+
+# Auto-added during alignment sweep
+*.pyc
