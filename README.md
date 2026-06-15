@@ -125,3 +125,8 @@ Once configured, ask your assistant, for example:
 - "Use `emit_html_meta_tags` to …"
 - "Use `emit_image_icc_signal` to …"
 <!-- BUY-LADDER:END -->
+
+## See also
+
+MEOK compliance MCP fleet:
+[`icon-generator-ai-mcp`](https://github.com/CSOAI-ORG/icon-generator-ai-mcp)
